@@ -27,6 +27,14 @@
     ```bash
     pip install -r requirements.txt
     ```
+
+4. Скачайте необходимые ресурсы NLTK:
+    ```python
+    import nltk
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    nltk.download('wordnet')
+    ```
    
 ## Запуск приложения
 
